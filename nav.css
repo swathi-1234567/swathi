@@ -1,0 +1,33 @@
+nav{
+    height: 50px;
+    background-color: aqua;
+    text-decoration: none;
+list-style-type: none;
+    text-transform: uppercase;
+    display:block;
+    padding: 7px;
+}
+ul{
+    padding: 20px;
+    text-decoration: none;
+    list-style-type: none;
+    text-transform: lowercase;
+    text-align: right;
+    margin-left:3px ;
+    margin-right: 5px;
+    padding-bottom: 20px;
+ 
+}
+li{
+    display: inline-block;
+padding up :40px;
+margin: 7px;
+}
+li:hover{
+    background-color: brown;
+}
+input{
+    flex: right;
+}
+   
+
