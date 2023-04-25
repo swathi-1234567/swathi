@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #main{
+            width: 350px;
+            height: 100px;
+            border: 2px solid black;
+            display: flex;
+             flex-wrap: wrap;   
+        }
+         #main div{
+            height: 50px;
+            width: 50px;
+            flex-shrink: 1;
+        flex-basis: 100px;
+        }
+        #main div:nth-of-type(1){flex-grow:20;}
+        #main div:nth-of-type(2){flex-grow: 50;}
+        #main div:nth-of-type(3){flex-grow: 70;}
+        #main div:nth-of-type(4){flex-grow: 10;}
+        #main div:nth-of-type(5){flex-grow: 39;}
+        #main div:nth-of-type(2){flex-shrink: 10;}
+
+
+    </style>
+</head>
+<body>
+    <h1>the flex -wrap property</h1>
+    <div id="main">
+        <div style="background-color: aqua;">1</div>
+        <div style="background-color: blue;">2</div>
+        <div style="background-color: brown;">3</div>
+        <div style="background-color: cadetblue;">4</div>
+        <div style="background-color: crimson;">5</div>
+    </div>
+</body>
+</html>
