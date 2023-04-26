@@ -1,0 +1,28 @@
+body{
+    background-color: aquamarine;
+    
+}
+#d1,d2{
+    background-color: cyan;
+  
+}
+#p1{
+    background-color: deeppink;
+    display: inline-block;
+  
+}
+ol{
+    list-style-type: lower-roman;
+    border: 2px solid violet;
+    height: fit-content;
+    width: fit-content;
+}
+ul{
+    list-style-type: circle;
+    border: 2px solid red;
+    height: fit-content;
+    width: fit-content;
+}
+   
+
+
