@@ -1,0 +1,23 @@
+
+#b1,#b2,#b3,#b4{
+   height: 200px;
+   width: 20%;
+    border: 1px solid black;
+    display: inline-block;
+    
+
+}
+#b2{
+    position: static;
+    top: 0px;
+    left: 30px;
+    background-color: crimson;
+    
+
+}
+body{
+    background-color: aqua;
+}
+#b3{
+    position: sticky;
+}
