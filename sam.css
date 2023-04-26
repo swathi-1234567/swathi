@@ -1,0 +1,15 @@
+
+        #d1{
+            background-image: linear-gradient(180dge,blue ,green);
+            background-color: aqua;
+            height: 30px;
+           
+        }
+        body{
+            background-image:url(nature.jfif);
+            background-color: aqua;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position-x: left-right;
+            opacity: 0.60;
+        }
